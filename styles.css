@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0d2d2;
+    font-family: Arial, sans-serif;
+}
+
+.player {
+    text-align: center;
+    background: rgb(92, 81, 131);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(15, 172, 151, 0.1);
+}
+
+.controls {
+    margin: 20px 0;
+}
+
+button {
+    background-color: coral;
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
